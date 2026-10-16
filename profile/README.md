@@ -41,6 +41,17 @@ and tuned on a PC before they reach the track.
 
 **EdgeTX Lua script** to switch and tune drive profiles from the radio.
 
+## Sneak peek
+
+From the configurator, running on its built-in demo board.
+
+| | |
+| --- | --- |
+| ![Cockpit: live top-down view with yaw rate, slip angle and the steering assist](img/cockpit.png) | ![Steering auto-tune result with suggested gains](img/autotune.png) |
+| **Cockpit:** live top-down view of what the car and the assists are doing | **Auto-tune:** measured steering response and suggested gains |
+| ![OSD editor with car elements](img/osd.png) | ![GPS lap timer and track map](img/laps.png) |
+| **OSD:** car elements for the video overlay | **Laps & track:** GPS lap timer and track map |
+
 ## Hardware
 
 Runs on common STM32F405 and STM32H743 flight controllers. Works with cars that use a steering
